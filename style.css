@@ -29,6 +29,7 @@ header {
     color: #ffffff;
     text-transform: uppercase;
     border-bottom: 6px solid #323746;    
+    padding-top: 0px;
 }
 
 .slider {
@@ -57,8 +58,9 @@ header .container {
 }
 
 h1 {
-    font-size: 2.5em;
-    letter-spacing: -0.04em;    
+    font-size: 2.53em;
+    letter-spacing: -0.033em;   
+    padding-top: 0.2em; 
 }
 
 h1::after {
@@ -68,19 +70,35 @@ h1::after {
 
 nav ul{
     display: flex;    
-    list-style: none;    
+    list-style: none;  
+    margin-top: 10px;  
 }
+
+nav ul li{
+    margin-left: 14px;
+} 
 
 nav ul li a {
     font-size: 1.2em;
     text-decoration: none; 
+    letter-spacing: -0.015em;
 }
 
-nav ul li a::before {
-    content: ".";
+nav ul li::before {
+    content: "\00B7";
+    padding-right: 13px;
+    color: #494e62;
+}
+
+nav ul li:first-child::before {
+    content: "";
 }
 
 nav ul li a:hover {
-    color: #f06c64;    
-    transition: color 200ms;    
+    color: #f06c64;
+    transition: color 200ms;
+}
+
+.selected-page {
+    color: #f06c64;
 }
