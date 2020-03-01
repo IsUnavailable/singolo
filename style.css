@@ -102,3 +102,98 @@ nav ul li a:hover {
 .selected-page {
     color: #f06c64;
 }
+
+.services {
+    color: #666d89;
+    padding-top: 62px;
+}
+
+h2 {
+    font-size: 1.9em;
+}
+
+.slider .container {
+    display: flex;
+}
+
+.container-item {
+    background-color: darkblue;
+}
+
+.container-item-left-arrow {
+    width: 20px;   
+    padding-top: 281px;
+    padding-left: 2px;
+}
+
+.container-item-right-arrow {
+    width: 20px;   
+    padding-top: 281px;
+    padding-left: 4px;
+}
+
+.container-item-slider-content {
+    width: 900px;
+    display: flex;
+}
+
+.container-item-vertical-phone {
+    width: 350px;
+}
+
+.container-item-horizontal-phone {
+    width: 550px;
+}
+
+.arrow {
+    width: 16px;
+    height: 27px;
+    background-image: url(assets/icons/png/chev.png);
+    cursor: pointer;
+}
+
+.arrow:hover {
+    background-image: url(assets/icons/png/chev-hover.png);
+}
+
+.arrow.right {
+    transform: rotate(180deg) 
+}
+
+.container-for-phone{
+    position: absolute;
+}
+
+.shadow {
+    position: absolute;
+    top: 53px;
+    left: 52px;    
+}
+
+.base {
+    position: absolute;
+    top: 52px;
+    left: 50px;    
+}
+.content {
+    position: absolute;
+    top: 118px;
+    left: 66px;    
+}
+
+.shadow.horizontal{
+    position: absolute;
+    top: 174px;
+    left: 16px;
+}
+
+.base.horizontal {
+    position: absolute;
+    top: 173px;
+    left: 14px;   
+}
+.content.horizontal {
+    position: absolute;
+    top: 188px;
+    left: 75px;    
+}
